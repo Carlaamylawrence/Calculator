@@ -5,6 +5,7 @@
   padding-right: 10px;
   padding-top: 10px;
   border: 5px solid rgb(249, 183, 240);
+  border-radius: 3%;
   margin: 6px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 80px;
@@ -13,6 +14,7 @@
 .calculator {
   border: 6px solid rgb(245, 168, 242);
   background-color: blanchedalmond;
+  border-radius: 3%;
 }
 .button-container {
   display: flex;
@@ -22,16 +24,22 @@
 }
 .item {
   aspect-ratio: 1;
-  width: 23%;
+  width: 100px;
+  height: 100px;
   background-color: #cb84b1;
   border-radius: 50%;
   border: 4px solid rgb(235, 112, 149);
   color: white;
-  margin: 2px;
+  margin: 4px;
   font-size: 30px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .item:hover {
   background-color: #8f2d6b;
+}
+
+#zero {
+  width: 43%;
+  border-radius: 50px;
 }
