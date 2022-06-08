@@ -14,3 +14,15 @@ function reset() {
   sum = "";
   document.getElementById("output").innerHTML = sum;
 }
+
+function colorChange() {
+  document.getElementById("output").style.color = "red";
+}
+
+function colorChange2() {
+  document.getElementById("output").style.color = "green";
+}
+
+function colorChange3() {
+  document.getElementById("output").style.color = "blue";
+}
