@@ -17,6 +17,7 @@
   border-radius: 3%;
   max-width: 450px;
   margin-inline: auto;
+  box-shadow: #8f2d6b 2px 3px 4pxs;
 }
 .button-container {
   display: flex;
