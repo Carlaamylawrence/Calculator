@@ -11,10 +11,9 @@
     <div class="calculator">
       <div id="output"></div>
       <div class="button-container">
-        <button class="item" onClick="reset()">AC</button>
-        <button class="item" onClick="buildSum('')">+/-</button>
-        <button class="item" onClick="buildSum('')">%</button>
-        <button class="item" onClick="buildSum('/')">/</button>
+        <button class="item" id="special" onClick="reset()">AC</button>
+        <button class="item" id="special" onClick="calculate()">=</button>
+        <button class="item" onClick="buildSum('/')">÷</button>
         <button class="item" onClick="buildSum('1')">1</button>
         <button class="item" onClick="buildSum('2')">2</button>
         <button class="item" onClick="buildSum('3')">3</button>
@@ -27,14 +26,13 @@
         <button class="item" onClick="buildSum('8')">8</button>
         <button class="item" onClick="buildSum('9')">9</button>
         <button class="item" onClick="buildSum('+')">+</button>
-        <button class="item" onClick="buildSum('0')" id="zero">0</button>
         <button class="item" onClick="buildSum('.')">,</button>
-        <button class="item" onClick="calculate()">=</button>
+        <button class="item" id="special" onClick="buildSum('0')">0</button>
       </div>
     </div>
-    <button class="item" onClick="colorChange()">RED</button>
-    <button class="item" onClick="colorChange2()">GREEN</button>
-    <button class="item" onClick="colorChange3()">BLUE</button>
+    <button class="color-item" onClick="colorChange()">RED</button>
+    <button class="color-item" onClick="colorChange2()">GREEN</button>
+    <button class="color-item" onClick="colorChange3()">BLUE</button>
 
     <script src="./index.js"></script>
   </body>
