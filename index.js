@@ -7,7 +7,7 @@ function buildSum(char) {
 
 function calculate() {
   sum = eval(sum);
-  document.getElementById("output").innerHTML = sum;
+  document.getElementById("output").innerHTML = sum.toFixed(2);
 }
 
 function reset() {
